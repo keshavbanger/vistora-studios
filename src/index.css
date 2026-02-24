@@ -393,7 +393,7 @@ body {
 
 #s2 .statement {
   font-family: 'Bebas Neue', sans-serif;
-  font-size: clamp(36px, 6vw, 90px);
+  font-size: clamp(18px, 3.5vw, 45px);
   letter-spacing: 0.05em;
   text-align: center;
   line-height: 1.05;
