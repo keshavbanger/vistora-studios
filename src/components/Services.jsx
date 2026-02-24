@@ -10,7 +10,7 @@ const Services = () => {
 
     return (
         <section className="section" id="s3">
-            <h2 className="services-heading anim-hidden">Core<br />Services</h2>
+            <h2 className="services-heading anim-hidden">Core Services</h2>
             <div className="services-list">
                 {services.map((svc, i) => (
                     <div key={i} className="svc-item anim-hidden-left" style={{ transitionDelay: `${i * 0.15}s` }}>
