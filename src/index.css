@@ -452,7 +452,7 @@ body {
 /* ── SERVICES ── */
 #s3 .services-heading {
   font-family: 'Bebas Neue', sans-serif;
-  font-size: clamp(36px, 7vw, 90px);
+  font-size: clamp(18px, 3.5vw, 45px);
   letter-spacing: 0.1em;
   color: var(--white);
   margin-bottom: 40px;
