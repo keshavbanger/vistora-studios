@@ -885,6 +885,75 @@ body {
   box-shadow: var(--glow);
 }
 
+#s7 .contact-box {
+  margin-top: 50px;
+  display: flex;
+  background: rgba(0, 180, 255, 0.03);
+  border: 1px solid rgba(0, 180, 255, 0.2);
+  border-radius: 8px;
+  padding: 20px 40px;
+  backdrop-filter: blur(10px);
+  gap: 40px;
+  transition: all 0.3s ease;
+}
+
+#s7 .contact-box:hover {
+  border-color: var(--blue);
+  box-shadow: var(--glow);
+  background: rgba(0, 180, 255, 0.06);
+}
+
+#s7 .contact-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+#s7 .contact-item .label {
+  font-family: 'Space Mono', monospace;
+  font-size: 9px;
+  letter-spacing: 0.2em;
+  color: var(--blue);
+  text-transform: uppercase;
+}
+
+#s7 .contact-item .value {
+  font-family: 'Space Mono', monospace;
+  font-size: 14px;
+  color: var(--white);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+#s7 .contact-item a.value:hover {
+  color: var(--blue);
+}
+
+#s7 .contact-divider {
+  width: 1px;
+  background: rgba(0, 180, 255, 0.2);
+}
+
+@media (max-width: 768px) {
+  #s7 .contact-box {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+  }
+
+  #s7 .contact-item {
+    align-items: center;
+  }
+
+  #s7 .contact-divider {
+    width: 40px;
+    height: 1px;
+  }
+}
+
 #s7 .handle {
   font-family: 'Space Mono', monospace;
   font-size: clamp(10px, 1.4vw, 14px);

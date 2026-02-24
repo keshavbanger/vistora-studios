@@ -15,7 +15,17 @@ const FinalCall = () => {
                 <button className="cta-btn">View Deck</button>
             </div>
 
-            <div className="handle anim-hidden-fade">@VISTORA.STUDIOS</div>
+            <div className="contact-box anim-hidden-fade">
+                <div className="contact-item">
+                    <span className="label">Enquiries</span>
+                    <a href="mailto:hello@vistora.studios" className="value">hello@vistora.studios</a>
+                </div>
+                <div className="contact-divider"></div>
+                <div className="contact-item">
+                    <span className="label">Social</span>
+                    <div className="value">@VISTORA.STUDIOS</div>
+                </div>
+            </div>
         </section>
     );
 };
