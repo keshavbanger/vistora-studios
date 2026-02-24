@@ -18,7 +18,7 @@ const FinalCall = () => {
             <div className="contact-box anim-hidden-fade">
                 <div className="contact-item">
                     <span className="label">Enquiries</span>
-                    <a href="mailto:hello@vistora.studios" className="value">hello@vistora.studios</a>
+                    <a href="mailto:bangerkeshav247@gmail.com" className="value">bangerkeshav247@gmail.com</a>
                 </div>
                 <div className="contact-divider"></div>
                 <div className="contact-item">
