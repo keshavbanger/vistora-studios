@@ -23,7 +23,7 @@ const FinalCall = () => {
                 <div className="contact-divider"></div>
                 <div className="contact-item">
                     <span className="label">Social</span>
-                    <div className="value">@VISTORA.STUDIOS</div>
+                    <div className="value">vistora_studios</div>
                 </div>
             </div>
         </section>
